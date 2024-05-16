@@ -7,6 +7,7 @@ const logger = require('morgan');
 const bodyParser = require("body-parser");
 const multer = require("multer");
 const fs = require('fs-extra');
+var mongoose = require('mongoose')
 
 const app = express();
 const prism = new PrismaClient();
